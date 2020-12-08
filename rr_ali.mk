@@ -16,8 +16,8 @@
 # Inherit from ali device
 $(call inherit-product, device/motorola/ali/device.mk)
 
-# Inherit some common Pixel Experience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common Resurrection Remix stuff.
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_STOCK_ARCORE := true
@@ -25,7 +25,7 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 ## Device identifier. This must come after all inclusions
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
-PRODUCT_NAME := aosp_ali
+PRODUCT_NAME := rr_ali
 PRODUCT_DEVICE := ali
 PRODUCT_MODEL := moto g(6)
 
