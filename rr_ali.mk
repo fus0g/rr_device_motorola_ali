@@ -36,3 +36,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     
 #Resurrection Remix
 RR_BUILDTYPE=Official
+BUILD_RR_WALLPAPERS:= true
