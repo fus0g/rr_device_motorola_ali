@@ -33,3 +33,6 @@ PRODUCT_MODEL := moto g(6)
 # Build Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="ali-user 9 PPS29.118-15-11-16 3afd9 release-keys"
+    
+#Resurrection Remix
+RR_BUILDTYPE=Official
