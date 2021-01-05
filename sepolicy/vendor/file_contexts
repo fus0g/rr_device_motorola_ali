@@ -1,2 +1,0 @@
-# Homebutton
-/sys/homebutton(/.*)?                                         u:object_r:sysfs_homebutton:s0

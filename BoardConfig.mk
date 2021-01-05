@@ -47,7 +47,5 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 26317376
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
-
 # inherit from the proprietary version
 -include vendor/motorola/ali/BoardConfigVendor.mk
