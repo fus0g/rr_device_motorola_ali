@@ -1,0 +1,12 @@
+[submodule "MotCamera2"]
+	path = MotCamera2
+	url = git@gitlab.com:PrabhatProxy/motorola-camera2.git
+	branch = ten
+[submodule "MotCamera2-overlay"]
+	path = MotCamera2-overlay
+	url = git@gitlab.com:PrabhatProxy/motorola_camera2_overlay.git
+	branch = ten
+[submodule "MotoSignatureApp"]
+	path = MotoSignatureApp
+	url = git@gitlab.com:PrabhatProxy/motorola_motosignatureapp.git
+	branch = ten

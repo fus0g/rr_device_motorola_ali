@@ -24,8 +24,8 @@ DEVICE_PATH := device/motorola/ali
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay
-
+    $(DEVICE_PATH)/overlay \
+    $(DEVICE_PATH)/MotCamera2-overlay
 # Device properties
 $(call inherit-product, $(DEVICE_PATH)/device_prop.mk)
 
